@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+.big-text{
+    font-size: 4em;
+    font-weight: 900;
+}
+
+.card{
+    font-size: 1em;
+    z-index: 3;
+}
+
+
+.carousel-text{
+    position: absolute;
+    top: 0;
+    right: 0%;
+    padding: 4%; 
+    color: #fff;
+    z-index: 1;
+}
+
+.col{
+    padding: 0 !important;
+}
+
+i{
+    color: rgb(184, 3, 3);
+}
+
+
+.link{
+    list-style: none;
+}
+
+.link:hover{
+    cursor: pointer;
+    background-color: rgb(184, 3, 3);
+    color: #fff;
+}
+
+.link2{
+    list-style: none;
+    text-decoration: none;
+}
+
+.link2:hover{
+    cursor: pointer;
+    background-color: rgb(126, 8, 8);
+    color: #fff;
+}
+
+.medium-text{
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.p-relative{
+    position: relative;
+}
+
+.red{
+    color: rgb(184, 3, 3);
+}
+
+.row{
+    height: 100vh;
+}
+
+.secondary-nav{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.secondary-nav-left{
+    left: 100%;
+    z-index: 2;
+    transition: 0.2s ease-in;
+}
+
+.toyota-bg{
+    background-color: rgb(184, 3, 3);
+    color: #fff;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}

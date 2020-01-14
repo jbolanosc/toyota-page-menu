@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="row">
+      <div class="col col-3 h-100 p-relative">
+        <nav class="h-100">
+          <div class="card text-center w-100 h-100">
+            <div class="card-body">
+              <img src="../menu/img/logo.png" class="h-30 w-50 pb-2" alt="" />
+              <h5 class="card-title red">Tecnologias de seguridad</h5>
+            </div>
+
+            <ul class="w-100">
+                <li onmouseover="getSideMenu(this)" data-value="1" class="link p-3 w-100">Historias de tecnologia de seguridad</li>
+                <li onmouseover="getSideMenu(this)" data-value="2" class="link p-3 w-100">Iniciativa integrada de tres partes</li>
+                <li onmouseover="getSideMenu(this)" data-value="3" class="link p-3 w-100">En busca de la seguridad del vehiculo</li>
+                <li onmouseover="getSideMenu(this)" data-value="4" class="link p-3 w-100">Tecnologias de seguridad</li>
+            </ul>
+
+            <div class="card-body">
+                    <i class="fab fa-facebook-square" title="facebook"></i>
+              <p>
+                &copy; 1995 - 2018 Toyota Motor Corporation. All Rights
+                Reserved.
+              </p>
+            </div>
+          </div>
+        </nav>
+        <div  class="h-100 secondary-nav">
+            <div class="text-center w-100 h-100 toyota-bg">
+                <ul class="secondary-links">
+
+                </ul>
+            </div>
+        </div>
+      </div>
+      <div class="col col-md-9 p-relative"  onmouseover="hideSideMenu()">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide h-100 p-relative"
+          data-ride="carousel"
+        >
+
+        <div class="carousel-text">
+                <h2 class="big-text">En busca</h2>
+                <H4 class="medium-text">De la seguridad del vehiculo</H4>
+                <button class="btn btn-danger">Conoce más</button>
+            </div>
+
+          <ol class="carousel-indicators ">
+            <li
+              data-target="#carouselExampleIndicators"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner h-100">
+            <div class="carousel-item h-100 active">
+              <img
+                class="d-block w-100 h-100"
+                src="../menu/img/banner1.jpg"
+                alt="First slide"
+              />
+            </div>
+            <div class="carousel-item h-100">
+              <img
+                class="w-100 h-100"
+                src="../menu/img/banner2.jpg"
+                alt="Second slide"
+              />
+            </div>
+            <div class="carousel-item h-100">
+              <img
+                class="d-block w-100 h-100"
+                src="../menu/img/banner3.jpg"
+                alt="Third slide"
+              />
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <script src="../JS/menu.js"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
